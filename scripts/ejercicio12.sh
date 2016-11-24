@@ -1,12 +1,12 @@
 #!/bin/bash
-if [ $HOME = manuel ]
+if [ $HOME = manolo ]
 then
-	echo "Este usuario es manuel."
+	echo "Este usuario es manolo."
 	exit 1
 fi
 
-if [ $HOME != manuel ]
+if [ $HOME != manolo ]
 then
-	echo "Este usuario no es manuel."
+	echo "Este usuario no es manolo."
 	exit 1
 fi
